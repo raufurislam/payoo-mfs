@@ -41,7 +41,7 @@ document
     // bad way to validate
     if (phoneNumber === "01812150681" && pinNumber === "3265") {
       console.log("You're logged in");
-      window.location.href = "/home.html";
+      window.location.href = "home.html";
     } else {
       alert("Wrong phone number or pin");
     }
